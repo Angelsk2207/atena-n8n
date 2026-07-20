@@ -4,7 +4,6 @@ services:
     env: docker
     plan: free
     dockerContext: .
-    dockerfile: Dockerfile
     envVars:
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
